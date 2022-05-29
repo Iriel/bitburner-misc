@@ -37,8 +37,8 @@ The following methods are provided for populating the table.
 All of them return the table to permit chaining.
 
 * `row() : Table` - Start a new row (ending any current row)
-* `add(value, [align]) : Table - Adds a cell value with optional alignment
-* `skip([num]) : Table - Adds num (default 1) blank columns
+* `add(value, [align]) : Table` - Adds a cell value with optional alignment
+* `skip([num]) : Table` - Adds num (default 1) blank columns
 * `end() : Table` - End the current row (starting one if necessary)
 * `endIfStarted() : Table` - End the current row if there is one
 * `setSpacer(index, spacer) : Table` - Sets the spacer to use before a column
